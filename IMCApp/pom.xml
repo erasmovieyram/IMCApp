@@ -34,10 +34,18 @@
         <version>3.1.0</version>
     </dependency>
     
+<!-- JSTL API -->
     <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>jstl</artifactId>
-        <version>1.2</version>
+        <groupId>jakarta.servlet.jsp.jstl</groupId>
+        <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+        <version>3.0.0</version>
+    </dependency>
+
+    <!-- Implementación de JSTL -->
+    <dependency>
+        <groupId>org.glassfish.web</groupId>
+        <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+        <version>3.0.0</version>
     </dependency>
 
     <!-- GSON (para manejo de JSON) -->
